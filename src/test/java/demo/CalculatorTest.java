@@ -11,6 +11,12 @@ public class CalculatorTest {
         Calculator calc = new Calculator();
         assertEquals(5, calc.add(2, 3));
     }
+	
+	@Test
+    void add_shouldReturnSum2() {
+        Calculator calc = new Calculator();
+        assertEquals(5, calc.add(8, -3));
+    }
 
     @Test
     void divide_shouldReturnQuotient() {
