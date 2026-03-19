@@ -13,7 +13,7 @@ public class CalculatorTest {
     }
 	
 	@Test
-    void add_shouldReturnSum() {
+    void add_shouldReturnSum2() {
         Calculator calc = new Calculator();
         assertEquals(5, calc.add(8, -3));
     }
